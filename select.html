@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.2.js"></script>
     <script src="js/scripts.js"></script>
     <title>Destination Away</title>
   </head>
-  <body>
+  <body class="background">
     <div class="container">
-      <h2>Find your perfect Destination Away</h2>
-      <div id="blanks">
+      <h2 class="textcolor">Find your perfect Destination Away</h2>
+      <h4 class="textcolor">Let us help you choose the perfect location for your next vacation by completing the survey below</h4>
+      <div id="blanks" class="row jumbotron">
         <div class="form-group">
              <label for="person">what's your name?</label>
              <input id="person" class="form-control" type="text">
@@ -39,8 +44,9 @@
 
         <div id="quote">
           <div class="row jumbotron">
-          <p>Congratulations <span class="person"> </span>You're Destination Away is <span id="findMe"></span></p>
-          <p>Now that you've found the perfect place to go, what are you waiting for? Get out therse!</p>
+          <h3>Congratulations <span class="person"> </span>!</h3>
+          <h3>You're Destination Away is <span id="findMe"></span></h3>
+          <p>Now that you've found the perfect place to go, what are you waiting for? Get out there!</p>
           <p>plan your trip <a href="index.html">here</a></p>
 
 
@@ -48,7 +54,7 @@
           <img src="img/peru.jpg" id="peru" width="50%">
           <img src="img/rocky.jpg" id="rocky" width="65%">
           <img src="img/koh.jpg" id="koh" width="50%">
-          <img src="img/hood.jpg" id="hood" width="65%">
+          <img src="img/hood.jpg" id="hood" width="50%">
           <img src="img/rome.jpg" id="rome" width="50%">
           <img src="img/hawaii.jpg" id="hawaii" width="65%">
           <img src="img/rougon.jpg" id="rougon" width="50%">

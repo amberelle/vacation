@@ -7,7 +7,26 @@
 }
 
 
-#img1 {
+#img {
   width: 40%;
   display: none;
+}
+
+/*.jumbotron {
+  text-align: center;
+}*/
+
+h1 {
+  text-align: center;
+}
+.textcolor {
+  color: white;
+}
+
+.item {
+  text-align: center;
+}
+
+.background{
+  background-color: black;
 }
