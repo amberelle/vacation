@@ -8,14 +8,35 @@
     <title>Destination Away</title>
   </head>
   <body>
-    <h1>Answer these questions to find your perfect Destination Away</h1>
+    <div class="container">
+      <h1>Answer these questions to find your perfect Destination Away</h1>
+
+      <div class="row jumbotron">
+          <label for="purpose">What are you looking for?</label>
+          <select id="purpose">
+            <option value="relax">Relaxation</option>
+            <option value="sites">Site Seeing</option>
+            <option value="adventure">Adventure</option>
+            <option value="volunteer">Volunteering</option>
+          </select>
+      </div>
+      <div class="row jumbotron">
+        <label for="locale">Which type of place do you prefer?</label>
+        <select id="locale">
+          <option value="urban">urban city scapes</option>
+          <option value="tropical">tropical paradise</option>
+          <option value="mountains">mountainous grandure</option>
+        </select>
+      </div>
+
+        <button type="submit" id="submit" class="btn">Find me a Destination Away</button>
 
 
 
 
 
 
-
+    </div>
   </body>
 
 
