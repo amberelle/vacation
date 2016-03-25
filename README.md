@@ -6,16 +6,12 @@
 
 ## Description
 
-_Second Independent Project where I build a vacation destination website using HTML, CSS, JavaScript and JQuery. This site will use variables inputted and logic to determine the best vacation location._
+_Second Independent Project for epicodus where I build a vacation destination website using HTML, CSS, JavaScript and JQuery. This site will use variables inputted and logic to determine the best vacation location._
 
 ## Setup/Installation Requirements
 
 _open in git hub_
 
-
-## Known Bugs
-
-__
 
 ## Support and contact details
 
