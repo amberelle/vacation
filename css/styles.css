@@ -1,0 +1,13 @@
+.btn {
+  display: block;
+}
+
+#quote {
+  display: none;
+}
+
+
+#img1 {
+  width: 40%;
+  display: none;
+}
