@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 
   $("#submit").click(function(event) {
-  // $("#blanks").submit(function(event){}
+
 
 
     var personInput = $("input#person").val();
@@ -16,7 +16,7 @@ $(document).ready(function() {
       event.preventDefault();
 
     if (purpose  === "relax") {
-      // $("#george").toggle();
+      
       if (locale === "urban") {
         $("#findMe").text("Paris, France");
             $("#paris").show();

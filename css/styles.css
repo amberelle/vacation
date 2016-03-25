@@ -1,5 +1,6 @@
 .btn {
   display: block;
+  padding: 1em 1em 1em 1em
 }
 
 #quote {
@@ -11,13 +12,13 @@
   width: 40%;
   display: none;
 }
+.jumbotron{
+  background-color: #CCCCCC;
+}
 
-/*.jumbotron {
+h2 {
   text-align: center;
-}*/
 
-h1 {
-  text-align: center;
 }
 .textcolor {
   color: white;
@@ -29,4 +30,13 @@ h1 {
 
 .background{
   background-color: black;
+}
+
+.imgcenter{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+  font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
 }
